@@ -13,5 +13,8 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+// Set some paths
+define( 'CCD_PATH', plugin_dir_path(__FILE__) );
+
 // grab some files
 require_once( CCD_PATH . 'includes/functions.php' );
