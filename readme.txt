@@ -3,7 +3,7 @@ Contributors: vegasgeek, toddhuish
 Tags: email, developers
 Requires at least: 3.0
 Tested up to: 4.2.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ On the `Settings -> General` page, add a comma separated list of email addresses
 1. On the `Settings -> General` page, add a comma separated list of email addresses to the `Dev Emails` field.
 
 == Changelog ==
+
+= 1.0.2 =
+* Cleaned up an undefined index.
 
 = 1.0.1 =
 * Of course we pushed the first version live with a fatal php error. Fixed.
